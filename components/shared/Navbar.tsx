@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-row items-center justify-between py-4 border-b border-[#FAF9FF] px-6 sm:px-[100px] shadow-sm w-full">
+    <div className="flex flex-col w-full">
+      <div className="flex flex-row items-center justify-between py-3 border-b border-[#FAF9FF] px-6 sm:px-[100px] shadow-sm w-full">
         <div className="flex items-center justify-center md:justify-start flex-grow">
           <Image
             src="/assets/logo.png"
@@ -41,7 +41,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="md:hidden flex items-center">
+        <div className="flex md:hidden items-center">
           <Image
             src="/assets/bars.png"
             alt="toggle-drawer"
