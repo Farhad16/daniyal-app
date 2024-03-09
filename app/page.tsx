@@ -1,12 +1,13 @@
 import Banner from "@/components/Banner";
-import Navbar from "@/components/shared/Navbar";
-import Image from "next/image";
+import Feature from "@/components/Feature";
+import Navbar from "@/components/shared/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center pb-[60px]">
       <Navbar />
       <Banner />
+      <Feature />
     </main>
   );
 }

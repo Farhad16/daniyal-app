@@ -27,3 +27,24 @@ body {
   background: rgb(203, 203, 203);
   border-radius: 20px;
 }
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(255, 255, 255);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid #6b7280;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6b7280;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+}
