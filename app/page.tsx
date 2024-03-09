@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Feature from "@/components/Feature";
+import Report from "@/components/Report";
 import Navbar from "@/components/shared/Navbar/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Feature />
+      <Report />
     </main>
   );
 }
