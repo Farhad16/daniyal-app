@@ -7,7 +7,6 @@ import Navbar from "@/components/shared/Navbar/Navbar";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center sm:pb-[50px]">
-      <Navbar />
       <Banner />
       <Feature />
       <Report />

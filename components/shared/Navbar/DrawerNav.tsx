@@ -32,6 +32,7 @@ export default function DrawerNav({ open, toggleDrawer }: any) {
           <Link
             key={menu.id}
             href={menu.href}
+            onClick={toggleDrawer(!open)}
             className={`!no-underline hover:no-underline focus:outline-none outline-none`}
           >
             {menu.name}
