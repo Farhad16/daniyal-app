@@ -3,7 +3,7 @@ import React from "react";
 
 const Report = () => {
   return (
-    <div className="relative w-full min-h-[241px] sm:min-h-[514px] px-6 sm:px-[60px] md:px-[100px] my-8 sm:my-20">
+    <div className="relative w-full min-h-[241px] sm:min-h-[514px] px-6 sm:px-[60px] xl:px-[100px] my-8 sm:my-20">
       <Image
         src="/assets/woman.png"
         alt="woman"

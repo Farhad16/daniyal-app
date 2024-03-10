@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-col w-full">
-      <div className="flex flex-row items-center justify-between py-4 border-b border-[#FAF9FF] px-6 sm:px-[60px] md:px-[100px] shadow-sm w-full">
+      <div className="flex flex-row items-center justify-between py-4 border-b border-[#FAF9FF] px-6 sm:px-[60px] xl:px-[100px] shadow-sm w-full">
         <div className="flex items-center justify-center md:justify-start flex-grow">
           <Image
             src="/assets/logo.png"

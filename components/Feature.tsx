@@ -3,7 +3,7 @@ import FeatureCards from "./shared/FeatureCards";
 
 const Feature = () => {
   return (
-    <div className="flex flex-col px-6 sm:px-[60px] md:px-[100px] w-full mt-10 sm:mt-16 gap-6 sm:gap-10">
+    <div className="flex flex-col px-6 sm:px-[60px] xl:px-[100px] w-full mt-10 sm:mt-16 gap-6 sm:gap-10">
       <div className="flex flex-col sm:flex-row w-full gap-6 sm:gap-10">
         <div className="flex flex-col w-full sm:w-1/2 items-center sm:items-start">
           <span className="text-gray-700 font-medium">Our Features</span>
