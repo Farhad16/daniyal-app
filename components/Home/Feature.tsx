@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureCards from "./shared/FeatureCards";
+import FeatureCards from "../shared/FeatureCards";
 
 const Feature = () => {
   return (
