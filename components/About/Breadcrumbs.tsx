@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
 
 const Breadcrumbs = () => {
   return (
@@ -15,7 +15,12 @@ const Breadcrumbs = () => {
           className="w-[20px] h-[20px]"
           alt="home"
         />
-        <span className="text-gray-700">Home</span>
+        <Link
+          href="/"
+          className="!no-underline hover:no-underline focus:outline-none outline-none"
+        >
+          <span className="text-gray-700">Home</span>
+        </Link>
         <Image
           src="/assets/right-arrow.png"
           width={20}
