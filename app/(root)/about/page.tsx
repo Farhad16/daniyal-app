@@ -5,7 +5,7 @@ import Footer from "@/components/shared/Footer";
 
 const About = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-4 sm:pb-[50px]">
       <Breadcrumbs />
       <AboutUs />
       <div className="flex px-6 sm:px-[60px] xl:px-[100px] w-full my-8 sm:my-10">

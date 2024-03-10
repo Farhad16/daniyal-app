@@ -1,7 +1,6 @@
 import Image from "next/image";
-import React from "react";
 
-const FooterContent = ({ icon, text }: any) => {
+const FooterContent = ({ icon, text }: { icon: string; text: string }) => {
   return (
     <div className="flex flex-row gap-2">
       {icon && (

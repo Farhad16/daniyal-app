@@ -1,10 +1,10 @@
-import * as React from "react";
-import Drawer from "@mui/material/Drawer";
 import { menus } from "@/constance/menus";
-import Link from "next/link";
+import { IDrawer } from "@/types";
+import Drawer from "@mui/material/Drawer";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function DrawerNav({ open, toggleDrawer }: any) {
+export default function DrawerNav({ open, toggleDrawer }: IDrawer) {
   return (
     <Drawer open={open} onClose={toggleDrawer(false)} anchor="top">
       <div className="flex flex-row items-center justify-between py-4 border-b border-[#FAF9FF] px-6 sm:px-[60px] xl:px-[100px] shadow-sm w-full">

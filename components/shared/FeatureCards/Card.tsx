@@ -1,6 +1,7 @@
+import { ICard } from "@/types";
 import Image from "next/image";
 
-const Card = ({ img, title, description }: any) => {
+const Card = ({ img, title, description }: ICard) => {
   return (
     <div className="flex flex-col rounded-xl p-4 md:p-10 gap-2 border shadow-sm max-w-full md:max-w-[391px] min-h-[215px] md:max-h-[316px] sm:min-h-[316px]">
       <div className="w-[62px] h-[62px] bg-gray-200 rounded-full flex items-center justify-center">
